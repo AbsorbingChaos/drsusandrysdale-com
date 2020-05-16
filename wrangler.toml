@@ -1,0 +1,12 @@
+name = "drsusandrysdale-test"
+type = "webpack"
+account_id = "98288619169b23339dc74ce53fa0b5f1"
+workers_dev = true
+
+[site]
+bucket = "./public"
+
+[env.production]
+name = "drsusandrysdale-com"
+zone_id = "04da3701d0e8595743d494b2f41e4831"
+route = "drsusandrysdale.com/*"
