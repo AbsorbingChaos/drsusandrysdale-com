@@ -187,6 +187,10 @@
     padding-bottom: 1rem;
   }
 
+  .dsd__bold {
+    font-weight: bold;
+  }
+
   /****************************************/
   /* CONTAINERS - Mobile First Design     */
   /****************************************/
@@ -214,6 +218,11 @@
     padding: 1rem 0;
     border-bottom: 0.2rem solid var(--dsd-purple-dk);
     margin-bottom: 1rem;
+  }
+  .dsd__header__title {
+    font-family: var(--dsd-font-pang);
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
   }
   .dsd__header__subtitle {
     font-family: var(--dsd-font-flux);
@@ -272,6 +281,12 @@
     text-align: left;
   }
 
+  .dsd__main p {
+    font-family: var(--dsd-font-pang);
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+  }
+
   /****************************************/
   /* FOOTER                               */
   /****************************************/
@@ -319,7 +334,7 @@
 <body>
   <div class="dsd__wrap">
     <header class="dsd__header">
-      <h1>Susan Drysdale, PhD</h1>
+      <h1 class="dsd__header__title">Susan Drysdale, PhD</h1>
       <p class="dsd__header__subtitle">We can work together to find solutions to your problems.</p>
     </header>
 
